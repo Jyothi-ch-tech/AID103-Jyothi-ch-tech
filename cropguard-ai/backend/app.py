@@ -1,6 +1,10 @@
 from flask import Flask
 from flask_cors import CORS
 import os
+import sys
+
+# Fix import path for Render deployment
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Import blueprints
 from controllers.user_controller import user_bp
