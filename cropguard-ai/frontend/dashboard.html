@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropGuard AI - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>🌾 CropGuard AI</h1>
+            </div>
+            <div class="nav-user">
+                <span id="userEmail" class="user-email"></span>
+                <button id="btnLogout" class="btn-logout">Logout</button>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="content-card">
+                <h2>🔍 Analyze Crop Disease</h2>
+                <p class="subtitle">Upload an image of your crop to detect diseases and get recommendations</p>
+
+                <div class="upload-area">
+                    <label for="file" class="file-label">
+                        <div class="upload-icon">📷</div>
+                        <span class="upload-text">Click to choose crop image</span>
+                        <span class="upload-hint">or drag and drop</span>
+                        <input type="file" id="file" accept="image/*">
+                    </label>
+
+                    <img id="preview" class="preview" style="display: none;" alt="Preview">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cropType">🌱 Crop Type</label>
+                        <input type="text" id="cropType" placeholder="e.g., Wheat, Rice, Tomato">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">📍 Location</label>
+                        <input type="text" id="location" placeholder="e.g., Farm A, Field 1">
+                    </div>
+                </div>
+
+                <div id="predictError" class="error" style="display: none;"></div>
+
+                <button id="btnPredict" class="btn-primary">
+                    <span>Analyze Crop</span>
+                    <span class="btn-icon">→</span>
+                </button>
+
+                <div id="result" class="result"></div>
+            </div>
+        </main>
+
+        <footer class="dashboard-footer">
+            <p>© 2024 CropGuard AI - Protecting Your Harvest with Intelligence</p>
+        </footer>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

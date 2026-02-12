@@ -70,5 +70,149 @@
     "severity": "medium",
     "location": "HYD",
     "created_at": "2026-02-10T15:47:12.138428"
+  },
+  {
+    "email": "jyothi6@gmial.com",
+    "disease": "Leaf Blight",
+    "confidence": 79.06,
+    "severity": "medium",
+    "location": "farm 1",
+    "created_at": "2026-02-12T14:53:59.793390"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Leaf Blight",
+    "confidence": 88.88,
+    "severity": "high",
+    "location": "farm 1",
+    "created_at": "2026-02-12T15:02:19.019104"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Leaf Blast",
+    "confidence": 66.82,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T15:37:07.427038"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Healthy",
+    "confidence": 75.52,
+    "severity": "low",
+    "location": "",
+    "created_at": "2026-02-12T15:37:31.901408"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Bacterial Blight",
+    "confidence": 79.42,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T15:38:56.348878"
+  },
+  {
+    "email": "jyothi6@gmial.com",
+    "disease": "Bacterial Blight",
+    "confidence": 73.84,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T17:00:18.322393"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Leaf Blast",
+    "confidence": 69.32,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T17:00:59.663555"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Healthy",
+    "confidence": 87.38,
+    "severity": "low",
+    "location": "",
+    "created_at": "2026-02-12T17:01:15.465584"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Leaf Blast",
+    "confidence": 69.87,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T17:01:35.421228"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Leaf Blast",
+    "confidence": 82.35,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T17:05:55.292946"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Bacterial Blight",
+    "confidence": 67.65,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T17:06:06.940326"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Healthy",
+    "confidence": 78.04,
+    "severity": "low",
+    "location": "",
+    "created_at": "2026-02-12T17:06:16.967554"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "confidence": 84.0,
+    "severity": "medium",
+    "location": "",
+    "created_at": "2026-02-12T17:09:40.344808"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Cherry_(including_sour)___Powdery_mildew",
+    "confidence": 76.0,
+    "severity": "medium",
+    "location": "",
+    "created_at": "2026-02-12T17:10:07.893244"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Apple___Black_rot",
+    "confidence": 68.0,
+    "severity": "high",
+    "location": "",
+    "created_at": "2026-02-12T17:10:25.266374"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "confidence": 84.0,
+    "severity": "medium",
+    "location": "",
+    "created_at": "2026-02-12T17:13:14.214873"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "confidence": 84.0,
+    "severity": "medium",
+    "location": "",
+    "created_at": "2026-02-12T17:13:30.662806"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "disease": "Cherry_(including_sour)___Powdery_mildew",
+    "confidence": 76.0,
+    "severity": "medium",
+    "location": "",
+    "created_at": "2026-02-12T17:13:39.547340"
   }
 ]

@@ -53,3 +53,19 @@ temp/
 # Package lock files (optional - uncomment if needed)
 # package-lock.json
 # yarn.lock
+
+# Datasets and Large Files
+New Plant Diseases Dataset(Augmented)/
+dataset/
+test/
+*.zip
+*.tar
+*.gz
+
+# Model Checkpoints (keep crop_disease_model.h5 but ignore others)
+backend/model/best_checkpoint.h5
+backend/model/*.backup
+
+# Virtual Environment
+venv/
+env/

@@ -1,32 +1,32 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-from models import FarmData
-from ai_engine import analyze_crop
-from advisory import generate_advisory
-from alerts import generate_alert
+from flask import Flask
+from flask_cors import CORS
+import os
 
-class AnalyzeRequest(BaseModel):
-    image_path: str
-    farm_data: FarmData
+# Import blueprints
+from controllers.user_controller import user_bp
+from controllers.predict_controller import predict_bp
+from controllers.farm_controller import farm_bp
+from controllers.alerts_controller import alerts_bp
+from controllers.admin_controller import admin_bp
 
-app = FastAPI(title="CropGuard AI")
+app = Flask(__name__)
+CORS(app)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"]
-)
+# Register blueprints
+app.register_blueprint(user_bp, url_prefix="/api/user")
+app.register_blueprint(predict_bp, url_prefix="/api")
+app.register_blueprint(farm_bp, url_prefix="/api")
+app.register_blueprint(alerts_bp, url_prefix="/api")
+app.register_blueprint(admin_bp, url_prefix="/api/admin")
 
-@app.post("/analyze")
-def analyze(request: AnalyzeRequest):
-    analysis = analyze_crop(request.image_path, request.farm_data.dict())
-    advisory = generate_advisory(analysis["disease"], analysis["severity"])
-    alert = generate_alert(analysis["severity"])
+@app.route("/")
+def home():
+    return {"status": "CropGuard AI Backend Running", "version": "1.0"}
 
-    return {
-        "AI_Analysis": analysis,
-        "Advisory": advisory,
-        "Alert": alert
-    }
+@app.route("/health")
+def health():
+    return {"status": "healthy"}
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)

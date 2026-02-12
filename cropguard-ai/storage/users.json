@@ -4,5 +4,17 @@
     "password": "$2b$12$RXScrtkgTb6Bik5ZFVv/6O0Zn6CXjtLvHmkolAmEfUgqDEkAu0y/i",
     "name": "chinthakula jyothi",
     "created_at": "2026-02-10T15:22:16.185944"
+  },
+  {
+    "email": "jyothi6@gmial.com",
+    "password": "$2b$12$BUaQhOM.QiWwcpGY/nLPeelu6D/9Ws.HrnausYhsrG3TKz1PGN5Ri",
+    "name": "jyothi",
+    "created_at": "2026-02-12T14:53:52.290074"
+  },
+  {
+    "email": "jyothi6@gmail.com",
+    "password": "$2b$12$LlxLwfeO/yCeWKg/nZRe4uE4aCnWH/N9QPmv5FFI1HOj02lou9o6C",
+    "name": "jyothi",
+    "created_at": "2026-02-12T15:01:25.599914"
   }
 ]
