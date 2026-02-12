@@ -1,0 +1,23 @@
+{
+  "users": {
+    "email": "string (unique)",
+    "password": "string (bcrypt)",
+    "name": "string",
+    "created_at": "datetime"
+  },
+  "farms": {
+    "email": "string (FK users.email)",
+    "crop_type": "string",
+    "sow_date": "string (ISO date)",
+    "location": "string",
+    "created_at": "datetime"
+  },
+  "alerts": {
+    "email": "string (FK users.email)",
+    "disease": "enum[Healthy,Leaf Blight,Rust,Powdery Mildew]",
+    "confidence": "number (0-100)",
+    "severity": "enum[low,medium,high]",
+    "location": "string",
+    "created_at": "datetime"
+  }
+}

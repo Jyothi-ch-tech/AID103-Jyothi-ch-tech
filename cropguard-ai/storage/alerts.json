@@ -1,0 +1,74 @@
+[
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Healthy",
+    "confidence": 51.52,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:22:30.307930"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Healthy",
+    "confidence": 51.52,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:23:59.736000"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Powdery Mildew",
+    "confidence": 77.04,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:24:10.571210"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Healthy",
+    "confidence": 51.52,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:24:38.645929"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Powdery Mildew",
+    "confidence": 77.04,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:24:55.020145"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Powdery Mildew",
+    "confidence": 77.04,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:38:06.789188"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Powdery Mildew",
+    "confidence": 77.04,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:42:56.932226"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Healthy",
+    "confidence": 51.52,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:43:15.524605"
+  },
+  {
+    "email": "jyothichinthakula86@gmail.com",
+    "disease": "Powdery Mildew",
+    "confidence": 77.04,
+    "severity": "medium",
+    "location": "HYD",
+    "created_at": "2026-02-10T15:47:12.138428"
+  }
+]

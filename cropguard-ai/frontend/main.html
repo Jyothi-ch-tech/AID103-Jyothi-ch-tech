@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CropGuard AI - Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="nav-title">CropGuard AI</div>
+    <div style="flex:1;"></div>
+    <div style="color:#fff;margin-right:16px;">
+      <span id="userEmail" class="muted" style="color:#dbeafe;"></span>
+    </div>
+    <button id="btnLogout" class="button" style="padding:8px 12px;font-size:14px;">Logout</button>
+  </div>
+  <div class="container" style="max-width: 880px; margin: 0 auto;">
+    <div class="grid-two">
+      <div class="section-card">
+        <div class="section-title">Detect Disease</div>
+        <input id="file" type="file" accept="image/*" style="margin-bottom:8px;">
+        <img id="preview" class="image-preview" style="display:none;">
+        <div class="field">
+          <label class="label">Crop Type</label>
+          <input id="cropType" class="input" value="wheat" placeholder="e.g., wheat, tomato">
+        </div>
+        <div class="field">
+          <label class="label">Location</label>
+          <input id="location" class="input" value="HYD" placeholder="e.g., HYD, NYC">
+        </div>
+        <button id="btnPredict" class="button" style="width:auto;">Submit</button>
+        <div id="predictError" class="error" style="display:none;"></div>
+        <div id="result" style="margin-top:12px;"></div>
+      </div>
+      <div class="section-card">
+        <div class="section-title">Recent Results</div>
+        <div id="recentResults" style="font-size:14px;">
+          <div class="muted">No results yet</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
